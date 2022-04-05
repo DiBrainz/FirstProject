@@ -8,6 +8,6 @@ Console.Write($"Введите максимальную температуру �
 
 string max = Console.ReadLine();
 int maxO = Convert.ToInt32(max);
-//gthdsq
+
 double middle = (double)(minO + maxO)/2;
 Console.WriteLine($"Средняя суточная темература составляет {middle}°");
